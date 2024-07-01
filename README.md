@@ -14,7 +14,7 @@ Python (3.7) & Pytorch (1.7.0) implementation for paper: Semi-supervised learnin
 
 Settings of augmentations, batch size, learning rates, etc. should be configured in `src/configs.py` file.
 
-Please add datasets in the `src/utils/dataset.py` file. For the labeled datasets, we aim to output the data format as `Sequence(s): Channels (C) x Length (L)` and `Label`; whereas we will have the sequences and augmentation views for the unlabeled set, as discussed in the paper.
+Please add your datasets in the `src/utils/dataset.py` file. For the labeled datasets, we aim to output the data format as `Sequence(s): Channels (C) x Length (L)` and `Label`; whereas we will have the sequences and augmentation views for the unlabeled set, as discussed in the paper.
 
 Use `src/run_tasks.py` to run experiments.
 
