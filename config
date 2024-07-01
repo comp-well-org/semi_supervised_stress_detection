@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/comp-well-org/semi_supervised_stress_detection.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
